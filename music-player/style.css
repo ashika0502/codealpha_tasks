@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    background: #1e272e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.player {
+    background: #2f3640;
+    padding: 20px;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+li:hover {
+    background: #40739e;
+}
